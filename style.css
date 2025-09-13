@@ -4,3 +4,14 @@
 @theme{
     --font-inter: "Inter", sans-serif;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .navlink {
+    @apply  block capitalize text-sm text-[#545E69] hover:text-[#F4796C] transition duration-300
+  }
+
+}
